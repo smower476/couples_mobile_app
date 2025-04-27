@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(Couples_App VERSION 1.0 LANGUAGES CXX)
+project(Couples_App2 VERSION 1.0 LANGUAGES CXX)
 
 # Basic project settings
 set(CMAKE_CXX_STANDARD 17)
