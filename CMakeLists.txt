@@ -4,7 +4,7 @@ project(Couples_App2 VERSION 1.0 LANGUAGES CXX)
 # Basic project settings
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(APP_ID "com.anton.couplesapp")
+set(APP_ID "com.max.couplesapp")
 set(APP_NAME "Couples App")
 set(APP_ICON "${CMAKE_CURRENT_SOURCE_DIR}/images/icon.png")
 
@@ -105,7 +105,7 @@ if(ANDROID)
     # Commented out alternative Android configuration approach
     # set_target_properties(${PROJECT_NAME} PROPERTIES
     #     QT_ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android"
-    #     QT_ANDROID_PACKAGE_NAME "io.anton.couplesapp"
+    #     QT_ANDROID_PACKAGE_NAME "io.max.couplesapp"
     #     QT_ANDROID_TARGET_SDK_VERSION 35
     #     QT_ANDROID_VERSION_CODE 20
     #     QT_ANDROID_VERSION_NAME "2.0"
